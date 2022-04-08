@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(/img/sub.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.pai{
+    background-image: linear-gradient(to right, rgb(92, 95, 43),rgb(58, 12, 12));
+   height: 40px;
+}
+
+.mortal{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+
+
+
+
+
+.container-slide{
+    display: flex;   
+    justify-content:space-between ;
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    margin: 20vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px red; 
+
+}
+ 
+
+.container-items{
+position: absolute;
+display: flex;
+width: 50vw;
+height: 50vh;
+background-color: blue;
+border-radius: 15px;
+transition: all 1s;
+overflow: hidden;
+
+
+}
+
+.item{
+    width: 50vw;
+    height: 50vh;
+    
+
+}
+.item:first-child{
+
+    margin-left: -100%;
+}
+
+.item img{
+    width: 50vw;
+     height: 50vh;
+     border-radius: 15px;
+
+}
+
+.action-button{
+    font: bold 30px sans-serif;
+    z-index: 1;
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(153, 9, 9);
+
+}
+
+
+.action-button:hover{
+
+    background-color: #00000099;
+    cursor: pointer;
+    transition: all 1s;
+
+}
